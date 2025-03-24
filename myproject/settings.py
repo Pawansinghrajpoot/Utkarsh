@@ -7,7 +7,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 SECRET_KEY = 'django-insecure-zhww$+at3$o^poajoak0x%0@+m*vz&*1c=sjw9b&!kfijxmy+='
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "utkarsh-d6pv.onrender.com",  # Add your Render domain
+    "127.0.0.1",  # Local development
+]
 
 # Application definition
 INSTALLED_APPS = [
